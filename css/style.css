@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federo&family=Notable&display=swap');
+.home {
+
+    background-image: url(../multimedia/pic1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+     
+  border: 10px solid transparent; 
+  padding: 20px;
+  border-image: url(../multimedia/border.png) 35 round;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    font-family: "Notable";
+    color: rgb(157, 5, 5);
+    font-size: 250%;
+    font-size: 70px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: "Federo";
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+p {
+    color: rgb(167, 18, 18);
+    font-family: "Notable";
+    text-align: center;
+}
+
+.f1 {
+    
+    color: rgb(248, 111, 111);
+    font-family: "Federo";
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 30px;
+}
+
+ul {
+    color: rgb(248, 111, 111);
+    font-family: "Federo";
+    text-align: left;
+}
+
+ol {
+    color: rgb(248, 111, 111);
+    font-family: "Federo";
+    text-align: left;
+}
+
+h2 {
+ color: rgb(248, 111, 111);
+    font-family: "Federo";
+    text-align: left;
+    margin-left: 35px;
+    border-left: 5px solid red;
+    padding-left: 10px;
+
+}
+
+.card {
+    background: rgba(0,0,0,0.7);
+    margin: 50px auto;
+    width: 70%;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px red;
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+p, li {
+    line-height: 1.6;
+}

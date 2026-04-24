@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+    color: white;
+    font-family: "Federo";
+}
+
+h1 {
+    color: red;
+     text-align: center;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+h2 {
+    
+     margin-left: 40px;
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+
+.btn {
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background: red;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: black;
+    border: 2px solid red;
+}
+
+
+nav {
+    background: black;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+table {
+    margin: auto;
+    background-color: rgba(254, 3, 3, 0.7);
+     width: 70%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background: rgba(0,0,0,0.8);
+    box-shadow: 0 0 15px red;
+
+}
+
+th {
+    background: red;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr:hover {
+    background: rgba(255,0,0,0.2);
+}
+
+ul {
+    list-style-type: square;
+    width: 60%;
+    margin: 20px auto;
+    background: rgba(255, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid red;
+}
+
+a {
+    color: rgb(255, 38, 0);
+}
+
+.team {
+    display: inline-block;
+}
+
+
+.teams {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.team-card {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 10px red;
+}
+
+.team-card img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.team-card:hover {
+    transform: translateY(-10px) scale(1.05);
+}

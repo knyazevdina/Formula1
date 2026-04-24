@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #000000, #1a1a1a);
+    color: white;
+}
+p {
+    font-family: Merriweather;
+    width: 70%;
+    margin: 30px auto;
+    background: rgba(255,0,0,0.1);
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.6;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: red;
+    letter-spacing: 3px;
+}
+
+
+nav {
+    background: black;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.driver-box {
+    background: rgba(0,0,0,0.8);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 0 10px red;
+    width: 180px;
+}
+
+.driver-box img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.driver-box:hover {
+    transform: scale(1.1);
+}
+
+.driver-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.video-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.video-column iframe {
+    width: 420px;
+    height: 240px;
+    border-radius: 10px;
+    border: 2px solid red;
+    transition: 0.3s;
+    margin: 10px 0;
+}
+
+.video-column iframe:hover {
+    transform: scale(1.05);
+}
+
+.video-column,
+.driver-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
